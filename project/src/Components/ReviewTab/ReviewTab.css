@@ -1,0 +1,34 @@
+.movie-poster{
+    height:540px;
+    max-width: 100%;
+}
+.review-page{
+    max-width: 70%;
+}
+
+.user-reviewcard{
+    max-width:100% !important;
+    padding: 20px !important;
+    background-color: #2b2a2a;
+    border-radius: 10px;
+}
+
+.my-button{
+    color:#ff6400;
+    border-color:#ff6400;
+}
+
+.my-button:hover{
+    background-color: #ff6400;
+    color:white;
+    border-color:#ff6400;
+}
+
+.reviews-cardbody{
+    padding:20px;
+}
+.reviews-card{
+    max-width: 100%;
+    background-color: #2b2a2a;
+    border-radius: 10px;
+}

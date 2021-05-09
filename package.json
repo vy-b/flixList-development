@@ -1,0 +1,20 @@
+{
+  "name": "301396991_group_project",
+  "version": "1.0.0",
+  "description": "1. Navigate a terminal into the project/backend/ directory.\r 2. Run the command `npm install`.\r 3. Create a new file within the project/backend directory named '.env'\r 4. Inside the .env file that you just created, paste the folowing lines: \r DATABASE_ACCESS = \"mongodb+srv://Members:UNqI03KnqB5O8U5x@cmpt276-project.7wuwo.mongodb.net/signup?retryWrites=true&w=majority\"\r API_KEY = '16721c88c9msh639b77d27c7427cp1bc563jsnd47d06966083'\r 5. Run the command `npm start` to start the server.\r 6. Create a second terminal, and navigate to the project/ directory.\r 7. Run the command `npm install`.\r 8. Run the command `npm start` to start the front-end.",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd project && npm run build",
+    "install-client": "cd project && npm install",
+    "install-server": "cd project/backend && npm install",
+    "heroku-postbuild": "npm run install-client && npm run install-server && npm run build",
+    "start": "npm run install-server && cd project/backend && node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@csil-git1.cs.surrey.sfu.ca:sjanke/301396991_group_project.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

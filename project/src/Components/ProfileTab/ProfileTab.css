@@ -1,0 +1,86 @@
+.profile{
+    background-color: #191414;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    margin-top: 71px;
+}
+
+.parent{
+    margin-top: 10vh;
+    margin-left: 20vh;
+}
+
+.name{
+    position: absolute;
+    font-size: calc(5px + 1.75vmin);
+    font-weight: 500;
+    border: 0.2vh white;
+    border-radius: 1vh;
+    border-style: solid;
+    padding: 2vh;
+}
+
+.friendSearch{
+    position: relative;
+}
+
+.friends{
+    padding-top: 20vh;
+    font-size: calc(5px + 1.75vmin);
+    font-weight: 500;
+}
+
+.listFriends{
+    flex: 1;    
+    min-height: 5vh;
+    max-height: 40vh;
+    overflow-y: auto;
+    padding-right:40px;
+}
+
+.User{
+    padding-left: 1vh;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-size: calc(5px + 1.5vmin);
+    color:white;
+}
+
+.User:hover{
+    color:white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.search{
+    padding-top: 2vh;
+    font-size: calc(5px + 1.5vmin);
+}
+
+.input-group mb-3{
+    padding-left: 10px;
+    width: auto;
+    height: auto;
+}
+
+.error{
+    color: red;
+    font-size: calc(5px + 1vmin);
+}
+
+.success{
+    color: chartreuse;
+    font-size: calc(5px + 1vmin);
+}
+.reviewcard{
+    position: absolute;
+    right: 10vw;
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
